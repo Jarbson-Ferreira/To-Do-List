@@ -28,7 +28,7 @@ canvas {
   max-width: 450px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background: rgba(253, 233, 233, 0.5);
+  background:rgba(55, 54, 54, 0.703);
   padding: 45px;
   border-radius: 12px;
   z-index: 1;
@@ -36,7 +36,6 @@ canvas {
 
 .title {
   text-align: center;
-  color: black;
 }
 
 .top {

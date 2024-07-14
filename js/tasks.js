@@ -29,12 +29,12 @@ btnAddTask.addEventListener("click", (e) => {
   };
   adicionarTarefa(task);
   if (inputNewTask.value == "") {
-    alert('Adicione uma tarefa');
-} else {
-     let li = criarTagLi(task)
-taskList.appendChild(li);
-inputNewTask.value = "";
-}
+    alert("Adicione uma tarefa");
+  } else {
+    let li = criarTagLi(task);
+    taskList.appendChild(li);
+    inputNewTask.value = "";
+  }
 });
 
 btnUpdateTask.addEventListener("click", (e) => {
