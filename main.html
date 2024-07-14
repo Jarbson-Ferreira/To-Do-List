@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  </head>
+  <body>
+    <div id="particles-container"></div>
+    <div class="content">
+      <h1 class="title">LISTA DE TAREFAS</h1>
+      <div class="top">
+        <input
+          type="text"
+          id="inputNewTask"
+          placeholder="Adicione uma Nova Tarefa"
+        />
+        <button id="btnAddTask">
+          <i class="fa fa-plus fa-lg"></i>
+        </button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+    <div id="windowEdit">
+      <button id="windowEditBtnExit">
+        <i class="fa fa-remove fa-2x"></i>
+      </button>
+      <h2 id="idTaskEdition">#1021</h2>
+      <hr />
+      <form>
+        <div class="frm-line">
+          <label for="nome">Nome</label>
+          <input type="text" id="inputTaskNameEdition" />
+        </div>
+        <div class="frm-line">
+          <button id="btnUpdateTask">Salvar</button>
+        </div>
+      </form>
+    </div>
+    <div id="windowEditBackground"></div>
+    <script src="./js/tasks.js"></script>
+    <script src="./js/particles.js"></script>
+  </body>
+</html>
